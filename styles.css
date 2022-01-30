@@ -115,3 +115,31 @@ banner img {
     padding-right: 100px;
     max-width: 1000px;
 }
+
+.locations h2 {
+    color: black;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locations h3 {
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 20px 20px;
+}
+
+.box img {
+    width: 300px;
+    height: auto;
+}
