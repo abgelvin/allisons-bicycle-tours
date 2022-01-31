@@ -96,50 +96,80 @@ banner img {
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    color: black;
-    background-color: rgb(212, 211, 211);
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: black;
+  background-color: rgb(212, 211, 211);
+  margin-bottom: 50px;
 }
 
 .about h2 {
-    color: black;
-    margin: 20px 0;
+  color: black;
+  margin: 20px 0;
 }
 
 .about .info {
-    padding-left: 100px;
-    padding-right: 100px;
-    max-width: 1000px;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 1000px;
 }
 
 .locations h2 {
-    color: black;
-    margin: 20px 0;
-    text-align: center;
+  color: black;
+  margin: 20px 0;
+  text-align: center;
 }
 
 .containers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .locations h3 {
-    color: black;
-    margin: 5px;
-    text-align: center;
+  color: black;
+  margin: 5px;
+  text-align: center;
 }
 
 .box {
-    border: 2px solid black;
-    margin: 20px 20px;
+  border: 2px solid black;
+  margin: 20px 20px;
 }
 
 .box img {
-    width: 300px;
-    height: auto;
+  width: 300px;
+  height: auto;
+}
+
+.prices {
+  text-align: center;
+  background-color: rgb(212, 211, 211);
+  padding: 0 400px 50px;
+}
+
+.prices h2 {
+  color: black;
+  padding-top: 40px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+thead th {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+tbody th {
+  text-align: left;
+  border: 1px solid black;
+}
+
+tbody td {
+  border: 1px solid black;
 }
