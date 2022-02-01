@@ -145,6 +145,9 @@ banner img {
 }
 
 .prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   text-align: center;
   background-color: rgb(212, 211, 211);
   padding: 0 400px 50px;
@@ -152,12 +155,12 @@ banner img {
 
 .prices h2 {
   color: black;
-  padding-top: 40px;
 }
 
 table {
   table-layout: fixed;
   width: 100%;
+  min-width: 600px;
 }
 
 thead th {
@@ -172,4 +175,39 @@ tbody th {
 
 tbody td {
   border: 1px solid black;
+}
+
+.contact {
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.contact h2 {
+  color: black;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+}
+
+.info p {
+  padding: 0 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: rgb(212, 211, 211);
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 300px;
+  vertical-align: top;
+}
+
+button {
+    float: right;
 }
