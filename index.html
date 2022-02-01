@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <header>
+    <header id="top">
       <h1>Allison's Bicycle Tours</h1>
       <nav>
         <ul>
@@ -35,6 +35,7 @@
         enjoy cycling the mountains since 2002. If you give a chance, we know
         you will have an amazing mountain cycling experience!
       </p>
+      <a href="#top" class="return">Return to Top</a></li>
     </div>
     <div class="locations" id="locations">
       <h2>Tour Locations</h2>
@@ -64,58 +65,63 @@
           <img src="Photos/MVIMG_20200315_185458.jpeg" alt="" />
         </div>
       </div>
+      <a href="#top" class="return">Return to Top</a></li>
     </div>
-    <div class="prices" id="prices">
-      <h2>Tour Prices</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Location</th>
-            <th>Three Days</th>
-            <th>Five Days</th>
-            <th>Seven Days</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>County Road 5</th>
-            <td>$1000</td>
-            <td>$1500</td>
-            <td>$2000</td>
-          </tr>
-          <tr>
-            <th>Crested Butte</th>
-            <td>$1000</td>
-            <td>$1500</td>
-            <td>$2000</td>
-          </tr>
-          <tr>
-            <th>West Fork</th>
-            <td>$1000</td>
-            <td>$1500</td>
-            <td>$2000</td>
-          </tr>
-          <tr>
-            <th>Lizard Head Pass</th>
-            <td>$1000</td>
-            <td>$1500</td>
-            <td>$2000</td>
-          </tr>
-          <tr>
-            <th>Dolomites</th>
-            <td>$1000</td>
-            <td>$1500</td>
-            <td>$2000</td>
-          </tr>
-          <tr>
-            <th>Ridgway</th>
-            <td>$1000</td>
-            <td>$1500</td>
-            <td>$2000</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="price block">
+      <div class="prices" id="prices">
+        <h2>Tour Prices</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Location</th>
+              <th>Three Days</th>
+              <th>Five Days</th>
+              <th>Seven Days</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>County Road 5</th>
+              <td>$1000</td>
+              <td>$1500</td>
+              <td>$2000</td>
+            </tr>
+            <tr>
+              <th>Crested Butte</th>
+              <td>$1000</td>
+              <td>$1500</td>
+              <td>$2000</td>
+            </tr>
+            <tr>
+              <th>West Fork</th>
+              <td>$1000</td>
+              <td>$1500</td>
+              <td>$2000</td>
+            </tr>
+            <tr>
+              <th>Lizard Head Pass</th>
+              <td>$1000</td>
+              <td>$1500</td>
+              <td>$2000</td>
+            </tr>
+            <tr>
+              <th>Dolomites</th>
+              <td>$1000</td>
+              <td>$1500</td>
+              <td>$2000</td>
+            </tr>
+            <tr>
+              <th>Ridgway</th>
+              <td>$1000</td>
+              <td>$1500</td>
+              <td>$2000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <a href="#top" class="return">Return to Top</a></li>
     </div>
+    
     <div class="contact" id="contact">
       <h2>Contact Us</h2>
       <div class="contact info">
@@ -130,9 +136,14 @@
 Type your question here</textarea
           >
           <br />
-          <button>Submit</button>
+          <button id="button">Submit</button>
+          <script>
+            let button = document.getElementById("button")
+            button.onclick = function () {alert('Question Submitted')}
+          </script>
         </form>
       </div>
+      <a href="#top" class="return">Return to Top</a></li>
     </div>
     <footer>
       <p>Copyright Allison's Bicycle Tours, Inc. 2022</p>

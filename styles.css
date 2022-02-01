@@ -116,6 +116,10 @@ banner img {
   max-width: 1000px;
 }
 
+.locations {
+    text-align: center;
+}
+
 .locations h2 {
   color: black;
   margin: 20px 0;
@@ -144,12 +148,17 @@ banner img {
   height: auto;
 }
 
+.block {
+    background-color: rgb(212, 211, 211);
+    text-align: center;
+}
+
 .prices {
     display: flex;
     flex-direction: column;
     align-items: center;
   text-align: center;
-  background-color: rgb(212, 211, 211);
+  
   padding: 0 400px 50px;
 }
 
@@ -179,7 +188,8 @@ tbody td {
 
 .contact {
   justify-content: center;
-  padding-bottom: 40px;
+  text-align: center;
+  
 }
 
 .contact h2 {
@@ -189,16 +199,12 @@ tbody td {
 
 .info {
   display: flex;
+  margin: 40px 0;
+  
 }
 
 .info p {
   padding: 0 50px;
-}
-
-footer {
-  text-align: center;
-  padding: 40px 0;
-  background-color: rgb(212, 211, 211);
 }
 
 label {
@@ -211,3 +217,13 @@ label {
 button {
     float: right;
 }
+
+.return {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+    background-color: rgb(212, 211, 211);
+  }
